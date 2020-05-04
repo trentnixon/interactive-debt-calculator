@@ -1,0 +1,78 @@
+.MeasuresContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+
+    .Measures{
+        flex-basis: 24%;
+        margin: .5%;
+        border-top: 2px solid #dadada;
+        margin-bottom: 25px;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: flex-start;
+
+        h1{
+            font-family: "Guardian Titlepiece";
+            font-size: 21px;
+            line-height: 25px;
+            margin: 6px 0;
+            color: #000;
+        }
+        p{
+            margin: 1em 0 ;
+            font-size: 1rem;
+            line-height: 1.3rem;
+            font-family: "TS3 Text Sans";
+            color: #000;
+        }
+
+        .Amount{
+            background-color: rgba(0, 0, 0, 0.48);
+            height: 50px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: stretch;
+            align-content: center;
+
+            p{
+                color: #fff;
+                margin-left: 2%;
+            }
+            button{
+                cursor: pointer;
+                height: 50%;
+                margin: auto 2%;
+                font-family: "TS3 Text Sans";
+                background-color: #eaeaea;
+                padding: 4px 10px;
+                border-radius: 62.5rem;
+                color: #767676;
+                border: none;
+                outline: 0;
+                box-sizing: border-box;
+                font-size: 12px;
+                line-height: 16px;
+            }
+            button.Open{
+                background-color: #eaeaea;
+            }
+            button.Closed{
+                background-color: #6fd867;
+            }
+            button.UnAvailable{
+                background-color: #999;
+            }
+        }
+    }
+}

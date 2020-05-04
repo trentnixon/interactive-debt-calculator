@@ -1,0 +1,13 @@
+
+/************ 
+** Application Variables
+*************/
+
+// Import Application Elements
+.Application{
+    background-color: white;
+    color:white;
+    padding-bottom: 70px;
+    @import "./Measures/Measures";
+    @import "./BudgetTotal";
+}
