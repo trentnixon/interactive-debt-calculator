@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from "react-redux";
+import {  useSelector } from "react-redux";
+// useDispatch,
 
 // Import Stateless
 import MeasureH1 from "../Stateless/H1"
@@ -28,7 +29,7 @@ const Measures =()=>{
        return BtnState;
     }
 
-    useEffect(()=>{ console.log(APP)  },[APP.Groups])
+    useEffect(()=>{},[APP.Groups])
     return(
         <div className="MeasuresContainer">
             {

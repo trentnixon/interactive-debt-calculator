@@ -16,6 +16,7 @@ const Content = new FetchData();
 
 
 // EDIT THESE VALUES FOR EACH PROJECT
+// eslint-disable-next-line
 let http =null;
 const CDN = 'https://gdn-cdn.s3.amazonaws.com/embed/2020/04/debtcalculator/';
 const AppType =['revenueMeasures','expenseMeasures','totals'];

@@ -70,12 +70,8 @@ const AmountCTA = (data) =>{
         
     }
 
-    
-    useEffect(()=>{
- 
-        LabelCheck()
-       // CheckGroup()
-    },[data.BtnState,BtnSelected])
+    // eslint-disable-next-line 
+    useEffect(()=>{ LabelCheck() },[data.BtnState,BtnSelected])
 
     return(
         <div className="Amount">
